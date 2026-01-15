@@ -30,6 +30,9 @@ case "$1" in
   --dev)
     source "$(dirname "$0")/modules/dev.sh"
     ;;
+  --compilers)
+    source "$(dirname "$0")/modules/compilers.sh"
+    ;;
   *)
     usage
     ;;
