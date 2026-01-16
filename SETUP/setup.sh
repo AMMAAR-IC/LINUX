@@ -36,6 +36,9 @@ case "$1" in
   --doctor)
     source "$(dirname "$0")/modules/doctor.sh"
     ;;
+  --info)
+    source "$(dirname "$0")/modules/info.sh"
+    ;;
   *)
     usage
     ;;
