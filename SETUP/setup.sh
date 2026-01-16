@@ -39,6 +39,12 @@ case "$1" in
   --info)
     source "$(dirname "$0")/modules/info.sh"
     ;;
+  --secure)
+    source "$(dirname "$0")/modules/secure.sh"
+    ;;
+  --monitor)
+    source "$(dirname "$0")/modules/monitor.sh"
+    ;;
   *)
     usage
     ;;
