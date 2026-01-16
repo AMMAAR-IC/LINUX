@@ -1,2 +1,7 @@
-# LINUX
-A curated collection of Linux setup guides, installation steps, and automation scripts organized by distribution to simplify system configuration, development environment setup, and daily Linux usage.
+## About
+
+This repository serves as a centralized resource for Linux users, providing distribution-specific setup guides, installation instructions, and automation scripts.
+
+It covers common tasks such as IDE installation, development environment setup, system configuration, and troubleshooting across multiple Linux distributions including Arch, Fedora, Kali, and Ubuntu.
+
+The content is organized by distribution to ensure clarity, accuracy, and ease of use for both beginners and experienced Linux users.

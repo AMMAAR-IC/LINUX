@@ -34,16 +34,16 @@ case "$1" in
     source "$(dirname "$0")/modules/compilers.sh"
     ;;
   --doctor)
-    source "$(dirname "$0")/modules/doctor.sh"
+    source modules/doctor.sh
     ;;
   --info)
-    source "$(dirname "$0")/modules/info.sh"
+    source modules/info.sh
     ;;
   --secure)
-    source "$(dirname "$0")/modules/secure.sh"
+    source modules/secure.sh
     ;;
   --monitor)
-    source "$(dirname "$0")/modules/monitor.sh"
+    source modules/monitor.sh
     ;;
   *)
     usage
